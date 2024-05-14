@@ -56,6 +56,14 @@ make clean
 ```
 ___
 
+### Format code
+Code is formatted with clang-format (Google style). The following can be used to format the code accordingly:
+```bash
+clang-format --style=Google -i WakeOnLan.c
+```
+___
+
+
 ### Feedback
 
 For any problem you may [open an issue](https://github.com/GramThanos/WakeOnLAN/issues)
